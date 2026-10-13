@@ -1,4 +1,4 @@
-# Byte-compiled / optimized / DLL files
+git check-ignore -v --no-index frontend/node_modules/lodash/package.json# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
@@ -218,3 +218,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# DefectGuard AI - Git exclusions
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.venv/
+data/
+models/
+__pycache__/
+*.pyc
+*.pth
+*.pt
+.env
+.env.*
